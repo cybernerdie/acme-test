@@ -36,7 +36,7 @@ TOTAL = (SUBTOTAL - DISCOUNT) + DELIVERY CHARGE
 ```
 
 ## Assumptions  
-✅ No enums are used to pass data between components.  
+✅ Enums are used to pass data between components.  
 ✅ No database or models are involved — data is managed in memory.  
 ✅ The `Money` class is used for handling prices and calculations.  
 ✅ The `ProductService` and `SpecialOfferRepository` are responsible for fetching product and offer data.  
